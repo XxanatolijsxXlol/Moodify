@@ -1,0 +1,766 @@
+{
+  "models": [
+    {
+      "name": "Comment",
+      "properties": [
+        {
+          "name": "user_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "post_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "body",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    },
+    {
+      "name": "Conversation",
+      "properties": [
+        {
+          "name": "user1_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "user2_id",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    },
+    {
+      "name": "Follow",
+      "properties": [
+        {
+          "name": "follower_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "followee_id",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    },
+    {
+      "name": "Like",
+      "properties": [
+        {
+          "name": "user_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "post_id",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    },
+    {
+      "name": "Message",
+      "properties": [
+        {
+          "name": "name",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "text",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "user_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "conversation_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "status",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "// Add status\r\n        delivered_at",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "// Add delivered_at\r\n        read_at",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "// Add read_at",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    },
+    {
+      "name": "Notification",
+      "properties": [
+        {
+          "name": "user_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "actor_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "type",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "subject_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "subject_type",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "message",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "read",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    },
+    {
+      "name": "Post",
+      "properties": [
+        {
+          "name": "user_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "caption",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "image",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    },
+    {
+      "name": "Profile",
+      "properties": [
+        {
+          "name": "title",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "description",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "url",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "image",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "// Add all relevant fields",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    },
+    {
+      "name": "Theme",
+      "properties": [
+        {
+          "name": "name",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "css_path",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "creator_id",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "is_public",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "thumbnail",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "description",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    },
+    {
+      "name": "User",
+      "properties": [
+        {
+          "name": "name",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "email",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "password",
+          "type": "fillable",
+          "dataType": ""
+        },
+        {
+          "name": "username",
+          "type": "fillable",
+          "dataType": ""
+        }
+      ],
+      "methods": [],
+      "namespace": "App\\Models"
+    }
+  ],
+  "controllers": [
+    {
+      "name": "AuthenticatedSessionController",
+      "methods": [
+        {
+          "name": "create",
+          "params": ""
+        },
+        {
+          "name": "store",
+          "params": "LoginRequest $request"
+        },
+        {
+          "name": "destroy",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers\\Auth"
+    },
+    {
+      "name": "ConfirmablePasswordController",
+      "methods": [
+        {
+          "name": "show",
+          "params": ""
+        },
+        {
+          "name": "store",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers\\Auth"
+    },
+    {
+      "name": "EmailVerificationNotificationController",
+      "methods": [
+        {
+          "name": "store",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers\\Auth"
+    },
+    {
+      "name": "EmailVerificationPromptController",
+      "methods": [
+        {
+          "name": "__invoke",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers\\Auth"
+    },
+    {
+      "name": "NewPasswordController",
+      "methods": [
+        {
+          "name": "create",
+          "params": "Request $request"
+        },
+        {
+          "name": "store",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers\\Auth"
+    },
+    {
+      "name": "PasswordController",
+      "methods": [
+        {
+          "name": "update",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers\\Auth"
+    },
+    {
+      "name": "PasswordResetLinkController",
+      "methods": [
+        {
+          "name": "create",
+          "params": ""
+        },
+        {
+          "name": "store",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers\\Auth"
+    },
+    {
+      "name": "RegisteredUserController",
+      "methods": [
+        {
+          "name": "create",
+          "params": ""
+        },
+        {
+          "name": "store",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers\\Auth"
+    },
+    {
+      "name": "VerifyEmailController",
+      "methods": [
+        {
+          "name": "__invoke",
+          "params": "EmailVerificationRequest $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers\\Auth"
+    },
+    {
+      "name": "Controller",
+      "methods": [],
+      "namespace": "App\\Http\\Controllers"
+    },
+    {
+      "name": "FollowController",
+      "methods": [
+        {
+          "name": "store",
+          "params": "Request $request, User $user"
+        },
+        {
+          "name": "destroy",
+          "params": "Request $request, User $user"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers"
+    },
+    {
+      "name": "MessageController",
+      "methods": [
+        {
+          "name": "index",
+          "params": ""
+        },
+        {
+          "name": "show",
+          "params": "Conversation $conversation"
+        },
+        {
+          "name": "start",
+          "params": "Request $request"
+        },
+        {
+          "name": "send",
+          "params": "Request $request"
+        },
+        {
+          "name": "markAsDelivered",
+          "params": "Request $request, Message $message"
+        },
+        {
+          "name": "markAsRead",
+          "params": "Request $request, Conversation $conversation"
+        },
+        {
+          "name": "markSpecificMessagesAsRead",
+          "params": "Request $request, Conversation $conversation"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers"
+    },
+    {
+      "name": "NotificationController",
+      "methods": [
+        {
+          "name": "index",
+          "params": ""
+        },
+        {
+          "name": "markAsRead",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers"
+    },
+    {
+      "name": "PostsController",
+      "methods": [
+        {
+          "name": "create",
+          "params": ""
+        },
+        {
+          "name": "index",
+          "params": ""
+        },
+        {
+          "name": "store",
+          "params": "Request $request"
+        },
+        {
+          "name": "getComments",
+          "params": "Post $post, Request $request"
+        },
+        {
+          "name": "show",
+          "params": "Post $post"
+        },
+        {
+          "name": "like",
+          "params": "Post $post"
+        },
+        {
+          "name": "storeComment",
+          "params": "Request $request, Post $post"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers"
+    },
+    {
+      "name": "ProfileController",
+      "methods": [
+        {
+          "name": "edit",
+          "params": "Request $request"
+        },
+        {
+          "name": "index",
+          "params": "Request $request"
+        },
+        {
+          "name": "update",
+          "params": "Request $request"
+        },
+        {
+          "name": "destroy",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers"
+    },
+    {
+      "name": "ProfilesController",
+      "methods": [
+        {
+          "name": "show",
+          "params": "$user"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers"
+    },
+    {
+      "name": "SearchController",
+      "methods": [
+        {
+          "name": "index",
+          "params": "Request $request"
+        },
+        {
+          "name": "apiSearch",
+          "params": "Request $request"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers"
+    },
+    {
+      "name": "ThemeController",
+      "methods": [
+        {
+          "name": "index",
+          "params": ""
+        },
+        {
+          "name": "create",
+          "params": ""
+        },
+        {
+          "name": "store",
+          "params": "Request $request"
+        },
+        {
+          "name": "activateDefault",
+          "params": "Theme $theme"
+        },
+        {
+          "name": "activate",
+          "params": "Theme $theme"
+        },
+        {
+          "name": "destroy",
+          "params": "Theme $theme"
+        }
+      ],
+      "namespace": "App\\Http\\Controllers"
+    }
+  ],
+  "services": [],
+  "relationships": [
+    {
+      "sourceModel": "Comment",
+      "relationshipType": "belongsTo",
+      "relationshipName": "user",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Comment",
+      "relationshipType": "belongsTo",
+      "relationshipName": "post",
+      "targetModel": "Post::class"
+    },
+    {
+      "sourceModel": "Conversation",
+      "relationshipType": "hasMany",
+      "relationshipName": "messages",
+      "targetModel": "Message::class"
+    },
+    {
+      "sourceModel": "Conversation",
+      "relationshipType": "belongsTo",
+      "relationshipName": "user1",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Conversation",
+      "relationshipType": "belongsTo",
+      "relationshipName": "user2",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Like",
+      "relationshipType": "belongsTo",
+      "relationshipName": "user",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Like",
+      "relationshipType": "belongsTo",
+      "relationshipName": "post",
+      "targetModel": "Post::class"
+    },
+    {
+      "sourceModel": "Message",
+      "relationshipType": "belongsTo",
+      "relationshipName": "user",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Message",
+      "relationshipType": "belongsTo",
+      "relationshipName": "conversation",
+      "targetModel": "Conversation::class"
+    },
+    {
+      "sourceModel": "Notification",
+      "relationshipType": "belongsTo",
+      "relationshipName": "user",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Notification",
+      "relationshipType": "belongsTo",
+      "relationshipName": "actor",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Notification",
+      "relationshipType": "morphTo",
+      "relationshipName": "subject",
+      "targetModel": "Unknown"
+    },
+    {
+      "sourceModel": "Post",
+      "relationshipType": "hasMany",
+      "relationshipName": "likes",
+      "targetModel": "Like::class"
+    },
+    {
+      "sourceModel": "Post",
+      "relationshipType": "hasMany",
+      "relationshipName": "comments",
+      "targetModel": "Comment::class"
+    },
+    {
+      "sourceModel": "Post",
+      "relationshipType": "belongsTo",
+      "relationshipName": "user",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Profile",
+      "relationshipType": "belongsTo",
+      "relationshipName": "user",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Theme",
+      "relationshipType": "belongsTo",
+      "relationshipName": "creator",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "Theme",
+      "relationshipType": "belongsToMany",
+      "relationshipName": "users",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "User",
+      "relationshipType": "hasOne",
+      "relationshipName": "profile",
+      "targetModel": "Profile::class"
+    },
+    {
+      "sourceModel": "User",
+      "relationshipType": "hasMany",
+      "relationshipName": "conversations",
+      "targetModel": "Conversation::class"
+    },
+    {
+      "sourceModel": "User",
+      "relationshipType": "hasMany",
+      "relationshipName": "messages",
+      "targetModel": "Message::class"
+    },
+    {
+      "sourceModel": "User",
+      "relationshipType": "hasMany",
+      "relationshipName": "posts",
+      "targetModel": "Post::class"
+    },
+    {
+      "sourceModel": "User",
+      "relationshipType": "belongsToMany",
+      "relationshipName": "following",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "User",
+      "relationshipType": "belongsToMany",
+      "relationshipName": "followers",
+      "targetModel": "User::class"
+    },
+    {
+      "sourceModel": "User",
+      "relationshipType": "belongsToMany",
+      "relationshipName": "themes",
+      "targetModel": "Theme::class"
+    }
+  ],
+  "directories": {
+    ".": {
+      "models": [
+        "Comment",
+        "Conversation",
+        "Follow",
+        "Like",
+        "Message",
+        "Notification",
+        "Post",
+        "Profile",
+        "Theme",
+        "User"
+      ],
+      "controllers": [
+        "AuthenticatedSessionController",
+        "ConfirmablePasswordController",
+        "EmailVerificationNotificationController",
+        "EmailVerificationPromptController",
+        "NewPasswordController",
+        "PasswordController",
+        "PasswordResetLinkController",
+        "RegisteredUserController",
+        "VerifyEmailController",
+        "Controller",
+        "FollowController",
+        "MessageController",
+        "NotificationController",
+        "PostsController",
+        "ProfileController",
+        "ProfilesController",
+        "SearchController",
+        "ThemeController"
+      ]
+    }
+  }
+}

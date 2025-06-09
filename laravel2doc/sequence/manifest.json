@@ -1,0 +1,572 @@
+{
+  "projectName": "laravel/laravel",
+  "projectVersion": "v11.44.7",
+  "generatedAt": "2025-06-05T05:59:25.448Z",
+  "diagrams": [
+    {
+      "id": "AuthenticatedSessionController-create",
+      "name": "AuthenticatedSessionController::create",
+      "controller": "AuthenticatedSession",
+      "method": "create",
+      "type": "create",
+      "description": "Creates a new resource in AuthenticatedSessionController",
+      "fileName": "AuthenticatedSessionController_create.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.363Z"
+    },
+    {
+      "id": "AuthenticatedSessionController-store",
+      "name": "AuthenticatedSessionController::store",
+      "controller": "AuthenticatedSession",
+      "method": "store",
+      "type": "create",
+      "description": "Creates a new resource in AuthenticatedSessionController",
+      "fileName": "AuthenticatedSessionController_store.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.365Z"
+    },
+    {
+      "id": "AuthenticatedSessionController-destroy",
+      "name": "AuthenticatedSessionController::destroy",
+      "controller": "AuthenticatedSession",
+      "method": "destroy",
+      "type": "delete",
+      "description": "Removes a resource from AuthenticatedSessionController",
+      "fileName": "AuthenticatedSessionController_destroy.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.365Z"
+    },
+    {
+      "id": "ConfirmablePasswordController-show",
+      "name": "ConfirmablePasswordController::show",
+      "controller": "ConfirmablePassword",
+      "method": "show",
+      "type": "show",
+      "description": "Retrieves a specific resource from ConfirmablePasswordController",
+      "fileName": "ConfirmablePasswordController_show.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.366Z"
+    },
+    {
+      "id": "ConfirmablePasswordController-store",
+      "name": "ConfirmablePasswordController::store",
+      "controller": "ConfirmablePassword",
+      "method": "store",
+      "type": "create",
+      "description": "Creates a new resource in ConfirmablePasswordController",
+      "fileName": "ConfirmablePasswordController_store.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.373Z"
+    },
+    {
+      "id": "EmailVerificationNotificationController-store",
+      "name": "EmailVerificationNotificationController::store",
+      "controller": "EmailVerificationNotification",
+      "method": "store",
+      "type": "create",
+      "description": "Creates a new resource in EmailVerificationNotificationController",
+      "fileName": "EmailVerificationNotificationController_store.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.375Z"
+    },
+    {
+      "id": "EmailVerificationPromptController-__invoke",
+      "name": "EmailVerificationPromptController::__invoke",
+      "controller": "EmailVerificationPrompt",
+      "method": "__invoke",
+      "type": "generic",
+      "description": "Handles __invoke operation in EmailVerificationPromptController",
+      "fileName": "EmailVerificationPromptController___invoke.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.376Z"
+    },
+    {
+      "id": "NewPasswordController-create",
+      "name": "NewPasswordController::create",
+      "controller": "NewPassword",
+      "method": "create",
+      "type": "create",
+      "description": "Creates a new resource in NewPasswordController",
+      "fileName": "NewPasswordController_create.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.377Z"
+    },
+    {
+      "id": "NewPasswordController-store",
+      "name": "NewPasswordController::store",
+      "controller": "NewPassword",
+      "method": "store",
+      "type": "create",
+      "description": "Creates a new resource in NewPasswordController",
+      "fileName": "NewPasswordController_store.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.378Z"
+    },
+    {
+      "id": "PasswordController-update",
+      "name": "PasswordController::update",
+      "controller": "Password",
+      "method": "update",
+      "type": "update",
+      "description": "Updates an existing resource in PasswordController",
+      "fileName": "PasswordController_update.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.378Z"
+    },
+    {
+      "id": "PasswordResetLinkController-create",
+      "name": "PasswordResetLinkController::create",
+      "controller": "PasswordResetLink",
+      "method": "create",
+      "type": "create",
+      "description": "Creates a new resource in PasswordResetLinkController",
+      "fileName": "PasswordResetLinkController_create.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.379Z"
+    },
+    {
+      "id": "PasswordResetLinkController-store",
+      "name": "PasswordResetLinkController::store",
+      "controller": "PasswordResetLink",
+      "method": "store",
+      "type": "create",
+      "description": "Creates a new resource in PasswordResetLinkController",
+      "fileName": "PasswordResetLinkController_store.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.380Z"
+    },
+    {
+      "id": "RegisteredUserController-create",
+      "name": "RegisteredUserController::create",
+      "controller": "RegisteredUser",
+      "method": "create",
+      "type": "create",
+      "description": "Creates a new resource in RegisteredUserController",
+      "fileName": "RegisteredUserController_create.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.381Z"
+    },
+    {
+      "id": "RegisteredUserController-store",
+      "name": "RegisteredUserController::store",
+      "controller": "RegisteredUser",
+      "method": "store",
+      "type": "create",
+      "description": "Creates a new resource in RegisteredUserController",
+      "fileName": "RegisteredUserController_store.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.381Z"
+    },
+    {
+      "id": "VerifyEmailController-__invoke",
+      "name": "VerifyEmailController::__invoke",
+      "controller": "VerifyEmail",
+      "method": "__invoke",
+      "type": "generic",
+      "description": "Handles __invoke operation in VerifyEmailController",
+      "fileName": "VerifyEmailController___invoke.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.382Z"
+    },
+    {
+      "id": "FollowController-store",
+      "name": "FollowController::store",
+      "controller": "Follow",
+      "method": "store",
+      "type": "create",
+      "description": "Creates a new resource in FollowController",
+      "fileName": "FollowController_store.md",
+      "models": [
+        "User"
+      ],
+      "timestamp": "2025-06-05T05:59:25.383Z"
+    },
+    {
+      "id": "FollowController-destroy",
+      "name": "FollowController::destroy",
+      "controller": "Follow",
+      "method": "destroy",
+      "type": "delete",
+      "description": "Removes a resource from FollowController",
+      "fileName": "FollowController_destroy.md",
+      "models": [
+        "User"
+      ],
+      "timestamp": "2025-06-05T05:59:25.383Z"
+    },
+    {
+      "id": "MessageController-index",
+      "name": "MessageController::index",
+      "controller": "Message",
+      "method": "index",
+      "type": "list",
+      "description": "Retrieves a collection of resources from MessageController",
+      "fileName": "MessageController_index.md",
+      "models": [
+        "User"
+      ],
+      "timestamp": "2025-06-05T05:59:25.384Z"
+    },
+    {
+      "id": "MessageController-show",
+      "name": "MessageController::show",
+      "controller": "Message",
+      "method": "show",
+      "type": "show",
+      "description": "Retrieves a specific resource from MessageController",
+      "fileName": "MessageController_show.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.385Z"
+    },
+    {
+      "id": "MessageController-start",
+      "name": "MessageController::start",
+      "controller": "Message",
+      "method": "start",
+      "type": "generic",
+      "description": "Handles start operation in MessageController",
+      "fileName": "MessageController_start.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.385Z"
+    },
+    {
+      "id": "MessageController-send",
+      "name": "MessageController::send",
+      "controller": "Message",
+      "method": "send",
+      "type": "generic",
+      "description": "Handles send operation in MessageController",
+      "fileName": "MessageController_send.md",
+      "models": [
+        "Conversation"
+      ],
+      "timestamp": "2025-06-05T05:59:25.386Z"
+    },
+    {
+      "id": "MessageController-markAsDelivered",
+      "name": "MessageController::markAsDelivered",
+      "controller": "Message",
+      "method": "markAsDelivered",
+      "type": "generic",
+      "description": "Handles markAsDelivered operation in MessageController",
+      "fileName": "MessageController_markAsDelivered.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.386Z"
+    },
+    {
+      "id": "MessageController-markAsRead",
+      "name": "MessageController::markAsRead",
+      "controller": "Message",
+      "method": "markAsRead",
+      "type": "generic",
+      "description": "Handles markAsRead operation in MessageController",
+      "fileName": "MessageController_markAsRead.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.387Z"
+    },
+    {
+      "id": "MessageController-markSpecificMessagesAsRead",
+      "name": "MessageController::markSpecificMessagesAsRead",
+      "controller": "Message",
+      "method": "markSpecificMessagesAsRead",
+      "type": "generic",
+      "description": "Handles markSpecificMessagesAsRead operation in MessageController",
+      "fileName": "MessageController_markSpecificMessagesAsRead.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.387Z"
+    },
+    {
+      "id": "NotificationController-index",
+      "name": "NotificationController::index",
+      "controller": "Notification",
+      "method": "index",
+      "type": "list",
+      "description": "Retrieves a collection of resources from NotificationController",
+      "fileName": "NotificationController_index.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.388Z"
+    },
+    {
+      "id": "NotificationController-markAsRead",
+      "name": "NotificationController::markAsRead",
+      "controller": "Notification",
+      "method": "markAsRead",
+      "type": "generic",
+      "description": "Handles markAsRead operation in NotificationController",
+      "fileName": "NotificationController_markAsRead.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.389Z"
+    },
+    {
+      "id": "PostsController-create",
+      "name": "PostsController::create",
+      "controller": "Posts",
+      "method": "create",
+      "type": "create",
+      "description": "Creates a new resource in PostsController",
+      "fileName": "PostsController_create.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.389Z"
+    },
+    {
+      "id": "PostsController-index",
+      "name": "PostsController::index",
+      "controller": "Posts",
+      "method": "index",
+      "type": "list",
+      "description": "Retrieves a collection of resources from PostsController",
+      "fileName": "PostsController_index.md",
+      "models": [
+        "Follow",
+        "Post",
+        "Theme",
+        "User"
+      ],
+      "timestamp": "2025-06-05T05:59:25.391Z"
+    },
+    {
+      "id": "PostsController-store",
+      "name": "PostsController::store",
+      "controller": "Posts",
+      "method": "store",
+      "type": "create",
+      "description": "Creates a new resource in PostsController",
+      "fileName": "PostsController_store.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.391Z"
+    },
+    {
+      "id": "PostsController-getComments",
+      "name": "PostsController::getComments",
+      "controller": "Posts",
+      "method": "getComments",
+      "type": "generic",
+      "description": "Handles getComments operation in PostsController",
+      "fileName": "PostsController_getComments.md",
+      "models": [
+        "User"
+      ],
+      "timestamp": "2025-06-05T05:59:25.392Z"
+    },
+    {
+      "id": "PostsController-show",
+      "name": "PostsController::show",
+      "controller": "Posts",
+      "method": "show",
+      "type": "show",
+      "description": "Retrieves a specific resource from PostsController",
+      "fileName": "PostsController_show.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.393Z"
+    },
+    {
+      "id": "PostsController-like",
+      "name": "PostsController::like",
+      "controller": "Posts",
+      "method": "like",
+      "type": "generic",
+      "description": "Handles like operation in PostsController",
+      "fileName": "PostsController_like.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.393Z"
+    },
+    {
+      "id": "PostsController-storeComment",
+      "name": "PostsController::storeComment",
+      "controller": "Posts",
+      "method": "storeComment",
+      "type": "generic",
+      "description": "Handles storeComment operation in PostsController",
+      "fileName": "PostsController_storeComment.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.394Z"
+    },
+    {
+      "id": "ProfileController-edit",
+      "name": "ProfileController::edit",
+      "controller": "Profile",
+      "method": "edit",
+      "type": "update",
+      "description": "Updates an existing resource in ProfileController",
+      "fileName": "ProfileController_edit.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.395Z"
+    },
+    {
+      "id": "ProfileController-index",
+      "name": "ProfileController::index",
+      "controller": "Profile",
+      "method": "index",
+      "type": "list",
+      "description": "Retrieves a collection of resources from ProfileController",
+      "fileName": "ProfileController_index.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.395Z"
+    },
+    {
+      "id": "ProfileController-update",
+      "name": "ProfileController::update",
+      "controller": "Profile",
+      "method": "update",
+      "type": "update",
+      "description": "Updates an existing resource in ProfileController",
+      "fileName": "ProfileController_update.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.396Z"
+    },
+    {
+      "id": "ProfileController-destroy",
+      "name": "ProfileController::destroy",
+      "controller": "Profile",
+      "method": "destroy",
+      "type": "delete",
+      "description": "Removes a resource from ProfileController",
+      "fileName": "ProfileController_destroy.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.396Z"
+    },
+    {
+      "id": "ProfilesController-show",
+      "name": "ProfilesController::show",
+      "controller": "Profiles",
+      "method": "show",
+      "type": "show",
+      "description": "Retrieves a specific resource from ProfilesController",
+      "fileName": "ProfilesController_show.md",
+      "models": [
+        "Follow",
+        "User"
+      ],
+      "timestamp": "2025-06-05T05:59:25.397Z"
+    },
+    {
+      "id": "SearchController-index",
+      "name": "SearchController::index",
+      "controller": "Search",
+      "method": "index",
+      "type": "list",
+      "description": "Retrieves a collection of resources from SearchController",
+      "fileName": "SearchController_index.md",
+      "models": [
+        "User"
+      ],
+      "timestamp": "2025-06-05T05:59:25.397Z"
+    },
+    {
+      "id": "SearchController-apiSearch",
+      "name": "SearchController::apiSearch",
+      "controller": "Search",
+      "method": "apiSearch",
+      "type": "generic",
+      "description": "Handles apiSearch operation in SearchController",
+      "fileName": "SearchController_apiSearch.md",
+      "models": [
+        "User"
+      ],
+      "timestamp": "2025-06-05T05:59:25.398Z"
+    },
+    {
+      "id": "ThemeController-index",
+      "name": "ThemeController::index",
+      "controller": "Theme",
+      "method": "index",
+      "type": "list",
+      "description": "Retrieves a collection of resources from ThemeController",
+      "fileName": "ThemeController_index.md",
+      "models": [
+        "Theme"
+      ],
+      "timestamp": "2025-06-05T05:59:25.398Z"
+    },
+    {
+      "id": "ThemeController-create",
+      "name": "ThemeController::create",
+      "controller": "Theme",
+      "method": "create",
+      "type": "create",
+      "description": "Creates a new resource in ThemeController",
+      "fileName": "ThemeController_create.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.399Z"
+    },
+    {
+      "id": "ThemeController-store",
+      "name": "ThemeController::store",
+      "controller": "Theme",
+      "method": "store",
+      "type": "create",
+      "description": "Creates a new resource in ThemeController",
+      "fileName": "ThemeController_store.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.399Z"
+    },
+    {
+      "id": "ThemeController-activateDefault",
+      "name": "ThemeController::activateDefault",
+      "controller": "Theme",
+      "method": "activateDefault",
+      "type": "generic",
+      "description": "Handles activateDefault operation in ThemeController",
+      "fileName": "ThemeController_activateDefault.md",
+      "models": [
+        "User"
+      ],
+      "timestamp": "2025-06-05T05:59:25.400Z"
+    },
+    {
+      "id": "ThemeController-activate",
+      "name": "ThemeController::activate",
+      "controller": "Theme",
+      "method": "activate",
+      "type": "generic",
+      "description": "Handles activate operation in ThemeController",
+      "fileName": "ThemeController_activate.md",
+      "models": [
+        "Theme"
+      ],
+      "timestamp": "2025-06-05T05:59:25.400Z"
+    },
+    {
+      "id": "ThemeController-destroy",
+      "name": "ThemeController::destroy",
+      "controller": "Theme",
+      "method": "destroy",
+      "type": "delete",
+      "description": "Removes a resource from ThemeController",
+      "fileName": "ThemeController_destroy.md",
+      "models": [],
+      "timestamp": "2025-06-05T05:59:25.401Z"
+    }
+  ],
+  "statistics": {
+    "totalDiagrams": 46,
+    "byType": {
+      "create": 15,
+      "delete": 4,
+      "show": 4,
+      "generic": 14,
+      "update": 3,
+      "list": 6
+    },
+    "byController": {
+      "AuthenticatedSession": 3,
+      "ConfirmablePassword": 2,
+      "EmailVerificationNotification": 1,
+      "EmailVerificationPrompt": 1,
+      "NewPassword": 2,
+      "Password": 1,
+      "PasswordResetLink": 2,
+      "RegisteredUser": 2,
+      "VerifyEmail": 1,
+      "": 0,
+      "Follow": 2,
+      "Message": 7,
+      "Notification": 2,
+      "Posts": 7,
+      "Profile": 4,
+      "Profiles": 1,
+      "Search": 2,
+      "Theme": 6
+    }
+  }
+}
